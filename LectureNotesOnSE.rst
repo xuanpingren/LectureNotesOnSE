@@ -83,6 +83,8 @@ bothering UML diagrams at all.  The old design becomes outdated very
 soon as more, previously-ignored details surface during software
 construction.
 
+
+
 Continuous improvement
 --------------------------------------
 
@@ -92,5 +94,28 @@ more harder to continuously improve it partly because people like new
 things and partly because people don't have enough motivation to do
 that.  Your software application is dead in the day when you stop
 improving it.  You software application becomes alive soon after you
-start improving it.  A good example of continuous improvement is done
-by Benno Schulenberg - the Nano text editor maintainer.
+start improving it.  A good example of performing continuous
+improvement is `Benno Schulenberg`_ - the Nano text editor maintainer.
+
+.. _`Benno Schulenberg`: http://git.savannah.gnu.org/cgit/nano.git/log/
+
+
+Documentation is important
+--------------------------------------
+
+TBD. Refer to Parnas's 1986 paper.  
+
+
+
+Test-driven development
+--------------------------------------
+
+TBD.
+
+
+
+Progress forms
+--------------------------------------
+
+TBD.
+
