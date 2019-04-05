@@ -376,18 +376,31 @@ ul.auto-toc {
 <div class="contents topic" id="table-of-content">
 <p class="topic-title first">Table of content</p>
 <ul class="simple">
-<li><a class="reference internal" href="#which-development-process-to-use" id="id1">Which development process to use?</a><ul>
-<li><a class="reference internal" href="#waterfall" id="id2">Waterfall</a></li>
-<li><a class="reference internal" href="#extreme-programming" id="id3">Extreme Programming</a></li>
-<li><a class="reference internal" href="#adopting-a-balanced-approach" id="id4">Adopting a balanced approach</a></li>
+<li><a class="reference internal" href="#requirements-risks" id="id1">Requirements risks</a><ul>
+<li><a class="reference internal" href="#cost-of-change-in-a-later-development-phase" id="id2">Cost of change in a later development phase</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#which-development-process-to-use" id="id3">Which development process to use?</a><ul>
+<li><a class="reference internal" href="#waterfall" id="id4">Waterfall</a></li>
+<li><a class="reference internal" href="#extreme-programming" id="id5">Extreme Programming</a></li>
+<li><a class="reference internal" href="#adopting-a-balanced-approach" id="id6">Adopting a balanced approach</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#continuous-improvement" id="id7">Continuous improvement</a></li>
 </ul>
 </div>
+<div class="section" id="requirements-risks">
+<h1><a class="toc-backref" href="#id1">Requirements risks</a></h1>
+<p>TBA</p>
+<div class="section" id="cost-of-change-in-a-later-development-phase">
+<h2><a class="toc-backref" href="#id2">Cost of change in a later development phase</a></h2>
+<p>Boehm's cost to fix an error curve.</p>
+</div>
+</div>
 <div class="section" id="which-development-process-to-use">
-<h1><a class="toc-backref" href="#id1">Which development process to use?</a></h1>
+<h1><a class="toc-backref" href="#id3">Which development process to use?</a></h1>
 <div class="section" id="waterfall">
-<h2><a class="toc-backref" href="#id2">Waterfall</a></h2>
+<h2><a class="toc-backref" href="#id4">Waterfall</a></h2>
 <p>The Waterfall model is great in that usually software applications
 developed with this model tend to be more reliable than agile
 approaches [reference needed].  I believe so.  However, the
@@ -396,29 +409,51 @@ Make sure the requirements documents are inspected by the stakeholder
 as soon as possible.</p>
 </div>
 <div class="section" id="extreme-programming">
-<h2><a class="toc-backref" href="#id3">Extreme Programming</a></h2>
+<h2><a class="toc-backref" href="#id5">Extreme Programming</a></h2>
 <p>Extreme Programming, or shortly, XP, is an instance of Agile development.</p>
 <p>Extreme Programming may be great in a rapidly changing environment.
-The stakeholders are willing to actively participate in the project.</p>
-<p>The bad side is that there is no overall design.  Even if you have
+The stakeholders are willing to actively participate in the project.
+The developers are willing to take challenges and work under pressure.
+It turns out that majority of the second year undergraduate students
+in my software engineering class (Spring 2019) preferred Waterfall to
+XP when I asked them to make a choice: either submit a small-sized
+software assignment next month if they choose XP , or submit it two
+months later if they choose Waterfall.</p>
+<p>A bad side of XP is that there is no overall design.  Even if you have
 one, this design is more easily subject to changes, as the current
 design has not considered all requirements.  Reworking might be
 inevitable in the future.</p>
+<p>In case of pair programming, frequently one member in the pair
+contributes so little to the whole project that he becomes a <strong>project
+parasite</strong>, undermining the claimed benefits (what benefits?) of pair
+programming.</p>
 </div>
 <div class="section" id="adopting-a-balanced-approach">
-<h2><a class="toc-backref" href="#id4">Adopting a balanced approach</a></h2>
-<p>Extreme Programming consists of many micro waterfall models, each
+<h2><a class="toc-backref" href="#id6">Adopting a balanced approach</a></h2>
+<p>In fact, Extreme Programming consists of many micro waterfall models, each
 focusing on one requirement.  I would use a <a class="reference external" href="images/waterfall_xp_balanced.jpg">balanced</a> version between
 Waterfall and Extreme Programming, a mix of tradition and invention.
 Developers strictly follow Waterfall's Requirements and Design stages,
-in order to see a big picture and make a better overall design.  After
+in order to see a bigger picture and make a better overall design.  After
 that, they head for developing features one by one, in descending
 order of priorities, similar to Extreme Programming.</p>
 <p>For small projects, the design stage is usually hidden in the
 developers' mind.  It happens in an internal and informal fashion, not
 bothering UML diagrams at all.  The old design becomes outdated very
-soon as more, previously-ignored details surface during construction.</p>
+soon as more, previously-ignored details surface during software
+construction.</p>
 </div>
+</div>
+<div class="section" id="continuous-improvement">
+<h1><a class="toc-backref" href="#id7">Continuous improvement</a></h1>
+<p>While developing a software application is important, improving it is
+more important.  It is hard to develop a software application. But is
+more harder to continuously improve it partly because people like new
+things and partly because people don't have enough motivation to do
+that.  Your software application is dead in the day when you stop
+improving it.  You software application becomes alive soon after you
+start improving it.  A good example of continuous improvement is done
+by Benno Schulenberg - the Nano text editor maintainer.</p>
 </div>
 </div>
 </body>
