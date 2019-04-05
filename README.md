@@ -1,2 +1,2 @@
 # LectureNotesOnSE
-Lecture notes on Software Engineering
+A series of lecture notes I delivered at zjnu while teaching Software Engineering.

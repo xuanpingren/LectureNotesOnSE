@@ -1,0 +1,62 @@
+==============================================
+Software Engineering - A lightweight approach
+==============================================
+
+:Authors: Hui Lan (lanhui AT zjnu.edu.cn)
+
+:Version: 0.1 of 2019/04/05
+
+
+.. contents:: Table of content
+
+
+
+Which development process to use?
+--------------------------------------
+
+
+
+Waterfall
+~~~~~~~~~~~~~~
+
+The Waterfall model is great in that usually software applications
+developed with this model tend to be more reliable than agile
+approaches [reference needed].  I believe so.  However, the
+stakeholder cannot see or comment on the product until very later.
+Make sure the requirements documents are inspected by the stakeholder
+as soon as possible.
+
+
+Extreme Programming
+~~~~~~~~~~~~~~~~~~~~~
+
+Extreme Programming, or shortly, XP, is an instance of Agile development.
+
+Extreme Programming may be great in a rapidly changing environment.
+The stakeholders are willing to actively participate in the project.
+
+The bad side is that there is no overall design.  Even if you have
+one, this design is more easily subject to changes, as the current
+design has not considered all requirements.  Reworking might be
+inevitable in the future.
+
+
+Adopting a balanced approach
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Since Extreme Programming consists of many micro waterfall models,
+each focusing on one requirement.  I would use a balanced_ version
+between Waterfall and Extreme Programming, a mix of tradition and
+invention.  Developers strictly follow Waterfall's Requirements and
+Design stages, in order to see a big picture and make a better overall
+design.  After that, they head for developing features one by one, in
+descending order of priorities, similar to Extreme Programming.
+
+.. _balanced: images/waterfall_xp_balanced.jpg
+
+For small projects, the design stage is usually hidden in the
+developers' mind.  It happens in an internal and informal fashion, not
+bothering UML diagrams at all.  The odl design becomes outdated very
+soon as more, previously-ignored details surface during construction.
+
+
